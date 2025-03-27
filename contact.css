@@ -1,0 +1,189 @@
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    color: #a3a1ac;
+    margin-bottom: 2em;
+}
+.logo span{
+    color: #fff;
+    font-weight: 300;
+}
+.logo:after{
+    content: '';
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    display:flex;
+    flex-direction:row;
+    position: absolute;
+    left:50%;
+    transform: translate(-630px, 20px);
+}
+.contact_section {
+    position: relative;
+    background-color: #f9fafa;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.contact_section .heading_container {
+    margin-bottom: 25px;
+}
+
+.contact_section .heading_container h2 {
+    text-transform: uppercase;
+}
+
+.contact_section .form_container input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    outline: none;
+    color: #101010;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact_section .form_container input::-webkit-input-placeholder {
+    color: #333;
+}
+
+.contact_section .form_container input:-ms-input-placeholder {
+    color: #333;
+}
+
+.contact_section .form_container input::-ms-input-placeholder {
+    color: #333;
+}
+
+.contact_section .form_container input::placeholder {
+    color: #333;
+}
+
+.contact_section .form_container input.message-box {
+    height: 120px;
+}
+
+.contact_section .form_container button {
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 55px;
+    background-color: #6bb7be;
+    color: #ffffff;
+    border-radius: 0px;
+    border: 1px solid #6bb7be;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.contact_section .form_container button:hover {
+    background-color: transparent;
+    color: #6bb7be;
+}
+
+.contact_section .map_container {
+    height: 500px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    padding: 0;
+}
+.contact_section .map_container .map {
+    height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}  
+.contact_section .map_container .map #googleMap {
+    height: 100%;
+}
+.info_section {
+    background-color: #191e1f;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.info_section .contact_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.info_section .contact_nav a {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #ffffff;
+}
+
+.info_section .contact_nav a i {
+    font-size: 28px;
+}
+
+.info_section .contact_nav a:hover {
+    color: #f89646;
+}
+
+.info_section .info_top {
+    padding: 45px 0;
+}
+
+.info_section h4 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.info_section .info_links .info_links_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.info_section .info_links .info_links_menu a {
+    color: #ffffff;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+}
+
+.info_section .info_links .info_links_menu a:hover, .info_section .info_links .info_links_menu a.active {
+    color: #f89646;
+}
+
+.info_section .info_post .post_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+    align-items: center;
+}
